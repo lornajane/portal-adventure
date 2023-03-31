@@ -1,16 +1,16 @@
 meta:
-  title: Redocly Training
-  description: The best API documentation generator ever.
-  siteUrl: https://developer-portal-starter.redoc.ly
+  title: Portal Adventure
+  description: Developer portals done right
+  siteUrl: https://portal-adventure.redoc.ly
   keywords: redocly developer portal, api portal starter, api reference docs
   lang: en-US
 linkChecker:
   severity: warning
   options:
-    CheckExternal: false
+    CheckExternal: true
 logo:
   image: ./images/logo.png
-  altText: Redocly Training
+  altText: Redocly Logo
 toc:
   enable: true
 oasDefinitions:
@@ -26,9 +26,11 @@ stylesheets:
 #scripts:
 #  - ./static/intercom.js
 nav:
+  - label: Home
+    page: /index.md
 
-  - label: Training exercises
-    page: developer-portal/index.md
+  - label: Quick links
+    page: /quicklinks.md
 
   - label: External docs
     icon: ./images/redocly-icon-white.png
@@ -39,17 +41,12 @@ nav:
 footer:
   copyrightText: Copyright © Redocly 2019-2021. All right reserved.
   columns:
-    - group: Legal
+    - group: Source
       items:
-        - label: Terms of Use
-          href: 'https://redoc.ly/subscription-agreement/'
-        - label: Privacy Notice
-          href: 'https://redoc.ly/privacy-notice/'
-        - label: Cookie Notice
-          href: 'https://redoc.ly/cookie-notice/'
-    - group: Support
+        - label: GitHub
+          page: https://github.com/lornajane/portal-adventure
+            
+    - group: About
       items:
-        - label: FAQ
-          page: faq.md
-        - label: Contact us
+        - label: Contact
           page: contact.mdx
