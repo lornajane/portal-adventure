@@ -1,0 +1,7 @@
+apiCatalog:
+  - title: XKCD
+    defaultVersion: v2
+    pathPrefix: apis
+    versions:
+      - link: https://api.redocly.com/registry/assets/lorna_testing/XKCD/v1?branch=main
+      - link: https://api.redocly.com/registry/assets/lorna_testing/XKCD/v2?branch=main
