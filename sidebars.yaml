@@ -38,11 +38,9 @@ training:
         page: developer-portal/mdx.mdx
       - label: Creating React components
         page: developer-portal/custom-component.mdx
-  - page: apis.mdx
-  - group: Petstore reference
-    expanded: false
+  - group: API Docs
     pages:
-      - page: openapi/reference.page.yaml/*
+      - page: example.page.yaml/*
 
   - group: Admin
     expanded: false

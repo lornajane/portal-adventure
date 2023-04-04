@@ -1,0 +1,11 @@
+type: reference-docs
+versions:
+  - definitionId: xkcd1
+    id: v1
+    title: XKCD Original 
+    isDefault: false
+  - definitionId: xkcd2
+    id: v2
+    title: XKCD Improved
+    isDefault: true
+
